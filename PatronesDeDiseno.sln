@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.csproj", "{804F6757-E44C-401B-BE64-F34C74EF00E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor II", "Visitor II\Visitor II.csproj", "{4AE67A12-6E44-4BB5-8A73-430DC2127D70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{08C366F4-A599-45E2-A45F-458EF1621D62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{804F6757-E44C-401B-BE64-F34C74EF00E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{804F6757-E44C-401B-BE64-F34C74EF00E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{804F6757-E44C-401B-BE64-F34C74EF00E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AE67A12-6E44-4BB5-8A73-430DC2127D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE67A12-6E44-4BB5-8A73-430DC2127D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AE67A12-6E44-4BB5-8A73-430DC2127D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AE67A12-6E44-4BB5-8A73-430DC2127D70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08C366F4-A599-45E2-A45F-458EF1621D62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08C366F4-A599-45E2-A45F-458EF1621D62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08C366F4-A599-45E2-A45F-458EF1621D62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08C366F4-A599-45E2-A45F-458EF1621D62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
