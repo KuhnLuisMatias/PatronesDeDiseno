@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Visitor
+namespace Strategy.Interface
 {
-    public interface IElement
+    public interface IPaymentStrategy
     {
-        void Accept(IVisitor visitor);
+        void Pay(double amount);
     }
 }
