@@ -14,7 +14,7 @@ namespace Mediator
         {
             /*
               ES:
-                  El patrón de diseño Mediator se utiliza para facilitar la comunicación y la interacción entre objetos de maneraindirecta, 
+                  El patrón de diseño Mediator se utiliza para facilitar la comunicación y la interacción entre objetos de manera indirecta, 
                   evitando que los objetos se comuniquen directamente entre sí. 
                   En lugar de que los objetos se conozcan y se comuniquen directamente, 
                   se comunican a través de un objeto mediador centralizado. 
@@ -27,11 +27,11 @@ namespace Mediator
                   The mediator acts as an intermediary and coordinates the interactions between the objects.
              */
 
-            IChatMediator chatMediator = new ChatMediator();
+            var chatMediator = new ChatMediator();
 
-            IUser user1 = new ChatUser(chatMediator, "User 1");
-            IUser user2 = new ChatUser(chatMediator, "User 2");
-            IUser user3 = new ChatUser(chatMediator, "User 3");
+            var user1 = new ChatUser(chatMediator, "User 1");
+            var user2 = new ChatUser(chatMediator, "User 2");
+            var user3 = new ChatUser(chatMediator, "User 3");
 
             chatMediator.AddUser(user1);
             chatMediator.AddUser(user2);
