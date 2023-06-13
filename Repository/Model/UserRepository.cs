@@ -34,7 +34,7 @@ namespace Repository.Model
                     cmd.ExecuteNonQuery();
                 }
 
-                Console.WriteLine("Articulo registrado con éxito.");
+                Console.WriteLine("Saved.");
             }
             catch (Exception e)
             {
@@ -50,14 +50,14 @@ namespace Repository.Model
                 using (var connection = new SqlConnection(_connectionString))
                 {
                     connection.Open();
-                    var query = "DELETE FROM Usuarios WHERE Id = @Id";
+                    var query = "DELETE FROM User WHERE Id = @Id";
 
                     SqlCommand cmd = new SqlCommand(query, connection);
                     cmd.Parameters.AddWithValue("@Id", id);
                     cmd.ExecuteNonQuery();
                 }
 
-                Console.WriteLine("Artículo eliminado con éxito");
+                Console.WriteLine("Deleted.");
             }
             catch (Exception e)
             {
@@ -134,7 +134,7 @@ namespace Repository.Model
                 {
                     connection.Open();
 
-                    var query = "UPDATE Usuarios SET Nombre = @Nombre, Edad = @Edad WHERE Id = @Id";
+                    var query = "UPDATE User SET Name = @Name, Age = @Age WHERE Id = @Id";
 
                     SqlCommand cmd = new SqlCommand(query, connection);
                     cmd.Parameters.AddWithValue("@Id", user.Id);
@@ -143,7 +143,7 @@ namespace Repository.Model
 
                     cmd.ExecuteNonQuery();
 
-                    Console.WriteLine("Artículo modificado con éxito");
+                    Console.WriteLine("Updated.");
                 }
             }
             catch (Exception e)
