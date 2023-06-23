@@ -8,7 +8,7 @@ namespace Builder.Model
 {
     public abstract class ReportBuilder
     {
-        //Constructor Abstracto
+        //Abstract Constructor 
         protected Report reportObject;
         public abstract void SetReportType();
         public abstract void SetReportHeader();
