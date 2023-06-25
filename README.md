@@ -1,3 +1,3 @@
 # PatronesDeDiseno
 
-Un repaso de los diferentes patrones de diseño aplicados con c#.
+Un repaso sobre 30 diferentes patrones de diseño aplicados con C#.
